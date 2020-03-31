@@ -25,6 +25,7 @@ import Counter from "./counter";
 // }
 
 const Counters = ({onReset, counters, onDelete, onIncrement}) => {
+  console.log('Counters - Rendered');
   return ( 
     <div>
         <button
